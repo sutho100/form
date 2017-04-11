@@ -1,0 +1,103 @@
+﻿ul, li {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #555555;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px; }
+
+h3 {
+  font-family: 'Droid Serif', serif;
+  font-weight: bold; }
+
+.mainBox {
+  width: 600px;
+  min-height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff; }
+  .mainBox .sidebar, .mainBox .mainForm {
+    float: left; }
+  .mainBox .sidebar {
+    height: 420px;
+    float: left;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #272e38; }
+    .mainBox .sidebar ul {
+      list-style: none;
+      display: inline-block;
+      width: 100%; }
+      .mainBox .sidebar ul li {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        width: 100px;
+        height: 90px;
+        background-color: #272e38;
+        border-bottom: 1px solid #fff;
+        padding-top: 25px;
+        font-size: 14px; }
+        .mainBox .sidebar ul li:first-child {
+          background-color: white;
+          color: black; }
+  .mainBox .email {
+    width: 80%;
+    margin-left: auto; }
+  .mainBox .mainForm {
+    width: 80%;
+    padding-left: 20px;
+    padding-bottom: 20px; }
+    .mainBox .mainForm form {
+      border-top: 2px solid darkgray;
+      display: block;
+      padding-top: 20px;
+      padding-bottom: 25px;
+      border-bottom: 2px solid darkgray; }
+      .mainBox .mainForm form textarea {
+        width: 100%;
+        margin-top: 10px; }
+      .mainBox .mainForm form .mainField {
+        height: 40px;
+        width: 100%;
+        margin-top: 10px; }
+      .mainBox .mainForm form .check {
+        margin: 0; }
+      .mainBox .mainForm form .buttons input[type="checkbox"] {
+        display: inline-block;
+        margin-top: 0px;
+        -ms-transform: scale(1.5);
+        /* IE */
+        -moz-transform: scale(1.5);
+        /* FF */
+        -webkit-transform: scale(1.5);
+        /* Safari and Chrome */
+        -o-transform: scale(1.5);
+        /* Opera */ }
+      .mainBox .mainForm form .buttons ul {
+        list-style: none;
+        float: right;
+        padding-top: 5px; }
+        .mainBox .mainForm form .buttons ul li {
+          display: inline-block; }
+          .mainBox .mainForm form .buttons ul li .button {
+            height: 50px;
+            width: 80px;
+            border-radius: 4px;
+            text-align: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            margin-left: 10px;
+            color: white; }
+          .mainBox .mainForm form .buttons ul li .submit {
+            background-color: #9caa3b;
+            border-color: #9caa3b; }
+            .mainBox .mainForm form .buttons ul li .submit:hover {
+              background-color: #7a8a32; }
+          .mainBox .mainForm form .buttons ul li .reset {
+            background-color: #df635b;
+            border-color: #df635b; }
+            .mainBox .mainForm form .buttons ul li .reset:hover {
+              background-color: #c24843; }
+

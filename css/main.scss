@@ -1,0 +1,125 @@
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #555555;
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+}
+h3 {
+	//font-family: 'open_sansregular';
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+}
+.mainBox {
+	width: 600px;
+	min-height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	.sidebar, .mainForm {
+		float: left;
+	}
+	.sidebar {
+		height: 420px;
+		float: left;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #272e38;
+		ul {
+			list-style: none;
+			display: inline-block;
+			width: 100%;
+			li {
+				font-family: 'Open Sans', sans-serif;
+				color: white;
+				width: 100px;
+				height: 90px;
+				background-color: #272e38;
+				border-bottom: 1px solid #fff;
+				padding-top: 25px;
+				font-size: 14px;
+				&:first-child {
+					background-color: white;
+					color: black;
+				}
+			}
+		}
+	}
+	.email {
+		width: 80%;
+		margin-left: auto;
+	}
+	.mainForm {
+		width: 80%;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		form {
+			border-top: 2px solid rgb(169, 169, 169);
+			display: block;
+			padding-top: 20px;
+			padding-bottom: 25px;
+			border-bottom: 2px solid rgb(169, 169, 169);
+			textarea {
+				width: 100%;
+				margin-top: 10px;
+			}
+			.mainField {
+				height: 40px;
+				width: 100%;
+				margin-top: 10px;
+			}
+			.check {
+				margin: 0;
+			}
+			.buttons {
+				input[type="checkbox"] {
+					display: inline-block;
+					margin-top: 0px;
+					-ms-transform: scale(1.5);
+					/* IE */
+					-moz-transform: scale(1.5);
+					/* FF */
+					-webkit-transform: scale(1.5);
+					/* Safari and Chrome */
+					-o-transform: scale(1.5);
+					/* Opera */
+				}
+				ul {
+					list-style: none;
+					float: right;
+					padding-top: 5px;
+					li {
+						display: inline-block;
+						.button {
+							height: 50px;
+							width: 80px;
+							border-radius: 4px;
+							text-align: center;
+							padding-top: 14px;
+							padding-bottom: 14px;
+							margin-left: 10px;
+							color: white;
+						}
+						.submit {
+							background-color: #9caa3b;
+							border-color: #9caa3b;
+							&:hover {
+								background-color: #7a8a32
+							}
+						}
+						.reset {
+							background-color: #df635b;
+							border-color: #df635b;
+							&:hover {
+								background-color: #c24843;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
